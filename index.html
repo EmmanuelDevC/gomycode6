@@ -12,42 +12,55 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg py-2 navbar-dark sticky-top bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
             <div class="container">
-                <a class="navbar-brand" href="#">WATCHES</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand text-white" href="#">LUXURY-WATCH</a>
+                <button class="navbar-toggler shadow" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-white">
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#home" home>Home</a>
+                            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#about">About</a>
+                            <a class="nav-link text-white" href="#">About</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#products">Products</a>
+                            <a class="nav-link text-white" href="#products">Products</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#services">Services</a>
+                            <a class="nav-link text-white" href="#products">Services</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#contact">Contact</a>
+                            <a class="nav-link text-white" href="#">Contact</a>
                         </li>
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="cartier..." aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
 
-        <div class="container con text-white mt-5 py-5 col-md-6">
-            <h1>NEW ARRIVALS</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis ipsam, dolorem voluptatem
-                inventore quidem similique iusto ut nemo vel veniam ipsum facere itaque necessitatibus! Lorem ipsum
-                dolor sit amet consectetur.</p>
-            <button class="bnt btn-light">SHOP NOW</button>
+        <div class="container con text-white py-5  col-md-6">
+            <div class="cont">
+                <h1>NEW ARRIVALS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis ipsam, dolorem voluptatem
+                    inventore quidem similique iusto ut nemo vel veniam ipsum facere itaque necessitatibus! Lorem ipsum
+                    dolor sit amet consectetur.</p>
+                <button class="bnt btn-light">SHOP NOW</button>
+            </div>
         </div>
     </header>
 
@@ -69,7 +82,7 @@
         <div class="container margin">
             <div class="row">
                 <div class="col-md-4 mb-4">
-                    <div class="card watch">
+                    <div class="card watch shadow">
                         <div class="card-body size justify-content-center"
                             style="flex-direction: column; text-align: left;">
                             <h1 class="text-primary display-4 font-weight-bold">MEN'S</h1>
@@ -78,7 +91,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="card watch">
+                    <div class="card watch shadow">
                         <div class="card-body size justify-content-center"
                             style="flex-direction: column; text-align: left;">
                             <h1 class="text-primary display-4 font-weight-bold">LADIES'</h1>
@@ -87,7 +100,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <div class="card watch">
+                    <div class="card watch shadow">
                         <div class="card-body size justify-content-center"
                             style="flex-direction: column; text-align: left;">
                             <h1 class="text-primary display-4 font-weight-bold">SALE</h1>
@@ -113,7 +126,7 @@
                             <h5><span>Men</span> watch</h5>
                             <h5 class="card-title" style="font-style: italic;">Rolex 2023</h5>
                             <p class="card-text"><b>Price: </b>$60,000 <del style="font-weight: 400;">$120,000</del></p>
-                            <a href="#" class="btn btn-primary">Shop Now</a>
+                            <a href="#" class="btn btn-primary col-6">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -126,7 +139,7 @@
                             <h5><span>Ladies</span> watch</h5>
                             <h5 class="card-title" style="font-style: italic;">Dior 2023</h5>
                             <p class="card-text"><b>Price: </b>$60,000 <del style="font-weight: 400;">$120,000</del></p>
-                            <a href="#" class="btn btn-primary">Shop Now</a>
+                            <a href="#" class="btn btn-primary col-6">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +152,7 @@
                             <h5><span>Men</span> watch</h5>
                             <h5 class="card-title" style="font-style: italic;">Cartier 2023</h5>
                             <p class="card-text"><b>Price: </b>$60,000 <del style="font-weight: 400;">$120,000</del></p>
-                            <a href="#" class="btn btn-primary">Shop Now</a>
+                            <a href="#" class="btn btn-primary col-6">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +165,7 @@
                             <h5><span>Ladies</span> watch</h5>
                             <h5 class="card-title" style="font-style: italic;">Orient 2023</h5>
                             <p class="card-text"><b>Price: </b>$60,000 <del>$120,000</del></p>
-                            <a href="#" class="btn btn-primary">Shop Now</a>
+                            <a href="#" class="btn btn-primary col-6">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +184,7 @@
                             <h5><span>Men</span> watch</h5>
                             <h5 class="card-title" style="font-style: italic;">Dior 2023</h5>
                             <p class="card-text"><b>Price: </b>$60,000 <del style="font-weight: 400;">$120,000</del></p>
-                            <a href="#" class="btn btn-primary">Shop Now</a>
+                            <a href="#" class="btn btn-primary col-6">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -184,7 +197,7 @@
                             <h5><span>Ladies</span> watch</h5>
                             <h5 class="card-title" style="font-style: italic;">Dior 2023</h5>
                             <p class="card-text"><b>Price: </b>$60,000 <del style="font-weight: 400;">$120,000</del></p>
-                            <a href="#" class="btn btn-primary">Shop Now</a>
+                            <a href="#" class="btn btn-primary col-6">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -197,7 +210,7 @@
                             <h5><span>Men</span> watch</h5>
                             <h5 class="card-title" style="font-style: italic;">Dior 2023</h5>
                             <p class="card-text"><b>Price: </b>$60,000 <del style="font-weight: 400;">$120,000</del></p>
-                            <a href="#" class="btn btn-primary">Shop Now</a>
+                            <a href="#" class="btn btn-primary col-6">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -210,7 +223,7 @@
                             <h5><span>Ladies</span> watch</h5>
                             <h5 class="card-title" style="font-style: italic;">Dior 2023</h5>
                             <p class="card-text"><b>Price: </b>$60,000 <del>$120,000</del></p>
-                            <a href="#" class="btn btn-primary">Shop Now</a>
+                            <a href="#" class="btn btn-primary col-6">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -218,7 +231,7 @@
         </div>
     </section>
 
-    <div class="footer py-5 text-center fs-5">
+    <div class="footer py-5 text-center text-light bg-dark fs-5">
         &copy 2024Codeby@<span>emmanueldev@gmail.com</span>
     </div>
 

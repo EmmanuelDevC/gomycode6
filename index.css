@@ -12,9 +12,21 @@
 
 header {
     height: 95vh;
+    background-image: url('https://images.unsplash.com/photo-1511370235399-1802cae1d32f?q=80&w=1455&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.menu {
+    transform: rotate(90deg);
+}
+
+.menu span {
+    padding: 2px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin: 2px;
 }
 
 .tag {
@@ -29,7 +41,7 @@ header {
 }
 
 span {
-    color:rgb(10, 193, 10);
+    color: rgb(10, 193, 10);
 }
 
 .margin {
@@ -60,6 +72,14 @@ span {
     margin: 50px;
 }
 
+.cont {
+    margin-top: 100px;
+}
+
+.cont {
+    text-shadow: 2px 2px 2px black;
+}
+
 .text {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -71,6 +91,10 @@ span {
     margin-top: 10px;
     border-radius: 5px;
     font-weight: 600;
+}
+
+.d-flex input::placeholder {
+    font-style: italic;
 }
 
 .logo {
@@ -98,6 +122,19 @@ span {
 
 @media screen and (max-width:450px) {
     .con {
-        margin: 0;
+        margin: 10px;
     }
+
+    .con h1 {
+        font-size: 60px;
+    }
+
+    .con p {
+        font-size: 15px;
+    }
+
+    .con button {
+        padding: 16px 40px;
+    }
+
 }
